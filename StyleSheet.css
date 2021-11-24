@@ -1,0 +1,183 @@
+﻿body {
+    width:1200px;
+}
+
+.mainBody {
+    width:1200px;
+	margin: auto;
+}
+
+#header {
+    width:1200px;
+    padding: 10px 20px 10px 20px;
+	background-color: darkslategrey;
+	color: aliceblue;
+    margin:auto;
+}
+
+#footer{
+	width: 1200px;
+	text-align: center;
+	margin:auto;
+	padding: 20px 0px 20px 0px;
+}
+
+#MostFav {
+    width:900px;
+	text-align: center;
+    margin:auto;
+	padding: 20px 0px 20px 0px;
+}
+
+#mnubar
+{
+	/*background-color: darkgoldenrod;*/
+	padding: 10px 20px 10px 20px;
+	height: 22px;
+    width:1200px;
+    margin:auto;
+}
+
+#LogCL
+{
+	/*background-color: darkslategrey;*/
+	padding: 10px 20px 10px 20px;
+	height: 22px;
+    width:1200px;
+    margin:auto;
+    color:aliceblue;
+}
+
+#LogCL .lcl1 {
+    color:aliceblue;
+    }
+
+#mnubar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+#mnubar li
+{
+	float:left;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	margin: 0;
+}
+#mnubar a
+{
+	display: block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 1em;
+	text-decoration: none;
+}
+#mnubar li:hover
+{
+	background-color: darkorchid;
+}
+
+
+#mnubar a:link
+{
+	color:greenyellow;
+}
+#mnubar a:visited
+{
+	color:aliceblue;
+}
+#mnubar a:hover
+{
+	font-size: 1.05em;
+	color: azure;
+}
+#mnubar a:active
+{
+	color:brown;
+}
+
+#mContent {
+	width: 100%;
+    text-align: center;
+}
+
+#mContent .ColM {
+    border:solid 1px;
+    border-color:aliceblue;
+	width: 620px;
+	margin-left: 280px;
+	text-align: center; 
+    margin-top:40px;
+  }
+
+#mContent .ColL {
+    background-color:burlywood;
+	width: 250px;
+    position:absolute;
+    top: 420px;
+    left: 40px;
+	text-align: center;
+}
+
+#mContent .ColR {
+    background-color:burlywood;
+	width: 250px;
+	position:absolute;
+	top: 420PX;
+	left: 970px;
+	text-align: center;
+
+}
+
+#mContent .Frm2 {
+    font-size:1em;
+    color:blue;
+    font-weight:bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    text-align:left;
+}
+
+#mContent .Frm1 {
+    font-size:1em;
+    color:blue;
+    font-weight:bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    text-align:left;
+}
+
+#mContent .Frm1 .lbl {
+    margin-left:20px;
+    margin-right:10px;
+    width:50px;
+}
+
+#mContent .Frm1 .txt {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-size:1em;
+    position:sticky;
+    left:515px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:380px;
+}
+
+#mContent .Frm1 .txtA {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-size:1em;
+    position:sticky;
+    left:380px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:500px;
+ 
+}
+
+#mContent .Frm1 .cmdCl {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
